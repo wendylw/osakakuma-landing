@@ -361,7 +361,9 @@ ul {
 }
 
 .header {
+  position: relative;
   padding: 50px 15px;
+  z-index: 1;
 
   &__title-container {
     margin: 100px auto;
@@ -471,11 +473,6 @@ ul {
   a {
     text-decoration: none;
     cursor: pointer;
-  }
-
-  h4,
-  p {
-    font-size: $small-font;
   }
 
   .col-6 {
