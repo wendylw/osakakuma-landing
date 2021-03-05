@@ -1,3 +1,4 @@
+# osakakuma-landing
 # Install
 
 SASS
@@ -35,5 +36,5 @@ npm run release
 ```
 
 # Coding rules
- 
+
 [rules.md](./doc/rules.md)
