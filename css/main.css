@@ -298,9 +298,13 @@ ul {
   .header__social-link img {
     height: 3rem; }
   .header__social-divider-first {
-    margin: 20px 30px 12px; }
+    margin: 20px 30px 12px;
+    border: 0;
+    border-top: 1px solid; }
   .header__social-divider-second {
-    margin: 20px 0 12px; }
+    margin: 20px 0 12px;
+    border: 0;
+    border-top: 1px solid; }
   .header__social-label {
     margin: 0 30px; }
 
@@ -359,7 +363,7 @@ ul {
     display: none !important; }
 
   .header__title-container {
-    margin: 40px auto; }
+    margin: 40px auto 80px; }
   .header__social-item {
     padding: 0 10px; }
   .header__social-divider-first {
@@ -460,9 +464,10 @@ ul {
   .offline-stores__image {
     margin: 20px auto; }
   .offline-stores__item-title {
+    margin: 16px auto 0;
     line-height: 2em;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 600;
     color: #363636; }
   .offline-stores__address {
     margin: 0 auto;
@@ -509,6 +514,7 @@ ul {
     font-weight: 700; }
   .membership__divider {
     margin: 60px auto;
+    border: 0;
     border-top: 4px solid;
     width: 12%; }
   .membership__form-container {
@@ -626,8 +632,8 @@ ul {
       font-size: 2.4rem; }
     .offline-stores__title, .offline-stores__list {
       margin: 40px auto; }
-    .offline-stores__column {
-      margin-bottom: 20px; }
+    .offline-stores__column:first-child {
+      margin-bottom: 40px; }
     .offline-stores__address {
       max-width: 80%;
       font-size: 1.6rem; }

@@ -432,10 +432,14 @@ ul {
 
   &__social-divider-first {
     margin: 20px 30px 12px;
+    border: 0;
+    border-top: 1px solid;
   }
 
   &__social-divider-second {
     margin: 20px 0 12px;
+    border: 0;
+    border-top: 1px solid;
   }
 
   &__social-label {
@@ -530,7 +534,7 @@ ul {
 
   .header {
     &__title-container {
-      margin: 40px auto;
+      margin: 40px auto 80px;
     }
 
     &__social-item {

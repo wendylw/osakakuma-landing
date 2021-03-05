@@ -122,9 +122,10 @@
   }
 
   &__item-title {
+    margin: 16px auto 0;
     line-height: 2em;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 600;
     color: $dark-gray;
   }
 
@@ -193,6 +194,7 @@
 
   &__divider {
     margin: 60px auto;
+    border: 0;
     border-top: 4px solid;
     width: 12%;
   }
@@ -379,8 +381,8 @@
       margin: 40px auto;
     }
 
-    &__column {
-      margin-bottom: 20px;
+    &__column:first-child {
+      margin-bottom: 40px;
     }
 
     &__address {
