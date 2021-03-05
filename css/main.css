@@ -376,7 +376,9 @@ ul {
       padding: 20px 15px;
       float: none; } }
 .top-container {
-  background-image: url(../img/logo-grey.svg); }
+  background-image: url(../img/logo-grey.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
 
 .online-store {
   padding: 90px 10px;
