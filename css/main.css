@@ -262,7 +262,8 @@ ul {
     margin: 100px auto; }
   .header__title {
     margin: 12px auto;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    font-weight: 900; }
     .header__title br {
       display: none; }
   .header__products {
