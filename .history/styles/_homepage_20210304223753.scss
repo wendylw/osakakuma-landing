@@ -1,0 +1,265 @@
+.online-store {
+  padding: 90px 10px;
+  color: $white;
+  background-color: $dark-gray;
+
+  &__advantages {
+    margin: 40px auto;
+  }
+
+  &__advantages-item span::before {
+    content: " ";
+    display: inline-block;
+    margin: 0 10px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: $white;
+  }
+
+  &__advantages-item span {
+    line-height: 1.4em;
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+
+  &__title {
+    margin: 100px auto;
+  }
+
+  &__list {
+    margin: 40px auto;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__item-content {
+    display: block;
+    margin: 0 20px;
+    border: 1px solid $white;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+
+  &__logo {
+    width: 100%;
+    height: 86%;
+    background-color: $white;
+  }
+
+  &__label {
+    display: block;
+    padding: 3% 0;
+    height: 14%;
+    color: $white;
+  }
+}
+
+.offline-stores {
+  padding: 50px 15px;
+
+  &__title {
+    margin: 60px auto;
+  }
+
+  &__list {
+    margin: 60px auto;
+    max-width: 960px;
+  }
+
+  &__column {
+    padding: 10px 30px;
+  }
+
+  &__image {
+    margin: 20px auto;
+  }
+
+  &__item-title {
+    line-height: 2em;
+    font-size: 2rem;
+    font-weight: 300;
+    color: $dark-gray;
+  }
+
+  &__address {
+    margin: 0 auto;
+    max-width: 55%;
+    color: $dark-gray;
+    font-style: unset;
+    font-weight: 300;
+  }
+}
+
+.about-us {
+  padding: 50px 0;
+  color: $dark-gray;
+  font-weight: 300;
+
+  &__colmn-content {
+    padding: 30px 15px 40px;
+  }
+
+  &__title {
+    padding: 0 40px;
+    margin: 30px 0;
+  }
+
+  &__title span {
+    font-size: inherit;
+    color: $theme-color;
+  }
+
+  &__paragraph{
+    padding: 0 40px;
+    margin: 20px 0;
+    width: 82%;
+    line-height: 1.5em;
+  }
+}
+
+.membership {
+  padding: 50px 15px;
+
+  &__advantages {
+    margin: 40px auto;
+  }
+
+  &__advantages-item span::before {
+    content: " ";
+    display: inline-block;
+    margin: 0 10px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: $main-color;
+  }
+
+  &__advantages-item span {
+    line-height: 1.4em;
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+
+  &__divider {
+    margin: 60px auto;
+    border: 2px solid;
+    width: 12%;
+  }
+
+  &__form-container {
+    padding-top: 70px;
+  }
+
+  &__title {
+    margin: 10px auto;
+    font-weight: 900;
+  }
+
+  &__description {
+    margin: 30px auto;
+  }
+
+  &__form {
+    position: relative;
+    display: inline-block;
+    margin: 40px auto;
+    width: 46%;
+    background-color: $white;
+    box-shadow: 0 2px 70px 0 rgba(161, 161, 161, 0.50);
+    border-radius: 100px;
+  }
+
+  &__input {
+    display: inline-block;
+    padding: 10px 68px 10px 24px;
+    height: 50px;
+    width: 100%;
+  }
+
+  &__button {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    display: inline-block;
+    margin: -12px -12px -20px;
+  }
+
+  &__button img {
+    width: 60px;
+  }
+}
+
+.contact-us {
+  padding: 50px 10px;
+  color: $white;
+  background-color: $dark-gray;
+
+  &__social-list {
+    margin: 70px auto;
+  }
+
+  &__social-item {
+    display: inline-block;
+    padding: 0 12px;
+  }
+
+  &__social-link {
+    display: block;
+  }
+
+  &__social-link img {
+    height: 3rem;
+  }
+
+  &__title {
+    margin: 30px auto;
+    font-weight: 700;
+  }
+
+  &__descripiton {
+    display: inline-block;
+    margin: auto;
+    border-bottom: 1px solid;
+  }
+
+  &__list {
+    margin: 70px auto;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__item-image {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .about-us {
+    &__colmn-content {
+      padding: 20px 15px 30px;
+    }
+
+    &__title {
+      padding: 0 20px;
+    }
+
+    &__paragraph {
+      padding: 0 20px;
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .online-store {
+    &__item-content {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}

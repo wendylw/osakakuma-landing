@@ -1,0 +1,42 @@
+.online-store {
+  color: $white;
+  background-color: $dark-gray;
+
+  &__advantages {
+    margin: 40px auto;
+  }
+
+  &__advantages-item span::before {
+    content: " ";
+    display: inline-block;
+    margin: 0 10px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: $white;
+  }
+
+  &__advantages-item span {
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+
+  &__title {
+    margin: 90px auto;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__list {
+    margin: 90px auto;
+  }
+
+  &__item-content {
+    margin: 0 20px;
+    border: 1px solid $white;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+}

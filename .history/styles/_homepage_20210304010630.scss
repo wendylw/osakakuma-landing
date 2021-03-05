@@ -1,0 +1,12 @@
+.online-store {
+  color: $white;
+  background-color: $dark-gray;
+
+  &__advantages {
+  }
+
+  &__advantages-item span {
+    font-size: 4.2rem;
+    font-weight: 600;
+  }
+}

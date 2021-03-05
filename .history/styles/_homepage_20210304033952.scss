@@ -1,0 +1,152 @@
+.online-store {
+  padding: 90px 10px;
+  color: $white;
+  background-color: $dark-gray;
+
+  &__advantages {
+    margin: 40px auto;
+  }
+
+  &__advantages-item span::before {
+    content: " ";
+    display: inline-block;
+    margin: 0 10px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: $white;
+  }
+
+  &__advantages-item span {
+    line-height: 1.4em;
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+
+  &__title {
+    margin: 100px auto;
+  }
+
+  &__list {
+    margin: 40px auto;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__item-content {
+    display: block;
+    margin: 0 20px;
+    border: 1px solid $white;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+
+  &__logo {
+    width: 100%;
+    height: 86%;
+    background-color: $white;
+  }
+
+  &__label {
+    display: block;
+    padding: 3% 0;
+    height: 14%;
+    color: $white;
+  }
+}
+
+.offline-stores {
+  padding: 50px 15px;
+
+  &__title {
+    margin: 60px auto;
+  }
+
+  &__list {
+    margin: 60px auto;
+    max-width: 960px;
+  }
+
+  &__column {
+    padding: 10px 30px;
+  }
+
+  &__image {
+    margin: 20px auto;
+  }
+
+  &__item-title {
+    line-height: 2em;
+    font-size: 2rem;
+    font-weight: 300;
+    color: $dark-gray;
+  }
+
+  &__address {
+    margin: 0 auto;
+    max-width: 55%;
+    color: $dark-gray;
+    font-style: unset;
+    font-weight: 300;
+  }
+}
+
+.about-us {
+  padding: 50px 0;
+  color: $dark-gray;
+  font-weight: 300;
+
+  &__colmn-content {
+    padding: 30px 15px 40px;
+  }
+
+  &__title {
+    padding: 0 20px;
+    margin: 30px 0;
+  }
+
+  &__title span {
+    font-size: inherit;
+    color: $theme-color;
+  }
+
+  &__paragraph{
+    padding: 0 20px;
+    margin: 20px 0;
+    width: 66%;
+    line-height: 1.5em;
+  }
+}
+
+.membership {
+  &__advantages {
+    margin: 40px auto;
+  }
+
+  &__advantages-item span::before {
+    content: " ";
+    display: inline-block;
+    margin: 0 10px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: $main-color;
+  }
+
+  &__advantages-item span {
+    line-height: 1.4em;
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+
+  &__divider {
+    margin: 60px auto;
+    border: 2px solid;
+    width: 12%;
+  }
+
+  &__title {
+    font-weight: 900;
+  }
+}
