@@ -741,5 +741,72 @@ ul {
     display: block;
     max-width: 24px;
     margin: 10px auto; } }
+.sakura {
+  padding-bottom: 50px;
+  min-height: 100%;
+  background-image: url(../img/background-hloe-page.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center; }
+
+.sakura-top {
+  max-width: 960px;
+  padding: 0 15px;
+  margin: 0 auto; }
+  .sakura-top__image {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-bottom: -11%; }
+  .sakura-top__text {
+    display: inline-block;
+    width: 90%;
+    font-size: 0;
+    border-radius: 15px;
+    overflow: hidden; }
+    .sakura-top__text img {
+      width: 100%; }
+
+.sakura-media__list {
+  padding: 20px 0; }
+.sakura-media__item {
+  display: inline-block;
+  padding: 5px;
+  width: 32px;
+  height: 32px; }
+.sakura-media__text-item {
+  display: inline-block; }
+.sakura-media__title {
+  font-size: 1.8rem; }
+.sakura-media__link {
+  display: block;
+  height: 100%; }
+.sakura-media__image {
+  height: 100%; }
+
+.sakura-ecommerce {
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto; }
+  .sakura-ecommerce__link {
+    display: block;
+    padding: 50px 0 0; }
+
+.sakura-footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .sakura-footer__logo {
+    width: 120px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); }
+
+@media (max-width: 768px) {
+  .sakura-top__image {
+    margin-bottom: -13%; }
+
+  .sakura-ecommerce__link {
+    padding: 20px 0 0; } }
 
 /*# sourceMappingURL=main.css.map */

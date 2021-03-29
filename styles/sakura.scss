@@ -1,0 +1,101 @@
+.sakura {
+  padding-bottom: 50px;
+  min-height: 100%;
+  background-image: url(../img/background-hloe-page.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+}
+
+.sakura-top {
+  max-width: 960px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &__image {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-bottom: -11%;
+  }
+
+  &__text {
+    display: inline-block;
+    width: 90%;
+    font-size: 0;
+    border-radius: 15px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.sakura-media {
+  &__list {
+    padding: 20px 0;
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+  }
+
+  &__text-item {
+    display: inline-block;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+  }
+
+  &__link {
+    display: block;
+    height: 100%;
+  }
+
+  &__image {
+    height: 100%;
+  }
+}
+
+.sakura-ecommerce {
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &__link {
+    display: block;
+    padding: 50px 0 0;
+  }
+}
+
+.sakura-footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__logo {
+    width: 120px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  }
+}
+
+@media(max-width: 768px) {
+  .sakura-top {
+    &__image {
+      margin-bottom: -13%;
+    }
+  }
+
+  .sakura-ecommerce {
+    &__link {
+      padding: 20px 0 0;
+    }
+  }
+}
