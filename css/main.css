@@ -380,6 +380,20 @@ ul {
     .footer__content {
       padding: 20px 15px;
       float: none; } }
+.sakura-banner {
+  padding: 15px;
+  background-image: url(../img/sakura-banner-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: middle center; }
+  .sakura-banner__link {
+    display: block;
+    font-size: 0; }
+  .sakura-banner__image {
+    margin: 5px auto 0;
+    width: 80%;
+    max-width: 500px; }
+
 .top-container {
   position: relative; }
   .top-container__image {
