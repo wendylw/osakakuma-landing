@@ -792,6 +792,11 @@ ul {
     display: block;
     padding: 50px 0 0; }
 
+.sakura-terms {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 790px; }
+
 .sakura-footer {
   background-image: url(../img/footer-bg.jpg);
   background-size: cover;
