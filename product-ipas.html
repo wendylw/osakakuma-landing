@@ -12,11 +12,11 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/video-js.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/product.css">
 </head>
 
 <body>
@@ -26,90 +26,98 @@
 
   <!-- Add your site or application content here -->
   <main class="main">
-    <header>
-      <img src="" alt="">
+    <header class="header">
+      <div class="container text-right">
+        <img class="header__logo" src="./img/logo-grey.png" alt="">
+      </div>
     </header>
     <!-- product info -->
     <section class="product-info">
-      <div>
-        <h4>Catalog</h4>
-        <ul>
-          <li>
-            <a href="">Shopee</a>
-          </li>
-          <li>
-            <a href="">Lazada</a>
-          </li>
-          <li>
-            <a href="">Qoo10</a>
-          </li>
-        </ul>
-        <img src="" alt="">
-        <h2>IPSA The Time Reset Aqua W 200ml</h2>
-        <span>S$ 61.9</span>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Aqua Presenter III uses three moisturising effects to ensure long-lasting hydration and aids the absorption of other skincare products. First, its 1,000 trillion fine moisturising molecules penetrate deep into the skin. Second, it triggers the skin's natural hydration production. Third, it creates a barrier to seal in moisture.</p>
-        <p>Improves acne and other skin problems, controls oil, evens skin texture, and shrink pores, leaving skin soft, clear, and rich in moisture</p>
-        <p>Extremely hydrating with a clean, refreshing texture</p>
-        <ul>
-          <li>
-            <h2>Key ingredients</h2>
-            <ul>
-              <li>Aqua Presenter III: Creates a dense, artificial barrier that locks in water and moisture</li>
-              <li>Peony & Marjoram Extracts: Effective at fighting acne and inflammation, and controlling oil production</li>
-              <li>EPC-K: Antioxidant that enhances the skin's natural barrier</li>
-              <li>Pyrola Calliantha Extract & other herbal extracts: Improves rough, uneven skin, leaving it silky soft</li>
+      <div class="container">
+        <div>
+          <div class="product-info__cata-log text-right">
+            <h4 class="product-info__cata-log-title text-center">Catalog</h4>
+            <br />
+            <ul class="product-info__cata-log-list">
+              <li>
+                <a class="product-info__cata-log-link" href="">Shopee</a>
+              </li>
+              <li>
+                <a class="product-info__cata-log-link" href="">Lazada</a>
+              </li>
+              <li>
+                <a class="product-info__cata-log-link" href="">Qoo10</a>
+              </li>
             </ul>
-            <p></p>
-          </li>
-        </ul>
+          </div>
+          <img class="product-info__image" src="" alt="">
+          <h2 class="product-info__name">IPSA The Time Reset Aqua W 200ml</h2>
+          <span class="product-info__price">S$ 61.9</span>
+        </div>
+        <div class="product-info__article">
+          <img class="product-info__article-image" src="" alt="">
+          <p>Aqua Presenter III uses three moisturising effects to ensure long-lasting hydration and aids the absorption of other skincare products. First, its 1,000 trillion fine moisturising molecules penetrate deep into the skin. Second, it triggers the skin's natural hydration production. Third, it creates a barrier to seal in moisture.</p>
+          <p>Improves acne and other skin problems, controls oil, evens skin texture, and shrink pores, leaving skin soft, clear, and rich in moisture</p>
+          <p>Extremely hydrating with a clean, refreshing texture</p>
+          <div class="product-info__others">
+            <h2>Key ingredients</h2>
+            <div class="product-info__others-divider"></div>
+            <ul class="product-info__others-list">
+              <li class="product-info__others-item"><strong>Aqua Presenter III:</strong> Creates a dense, artificial barrier that locks in water and moisture</li>
+              <li class="product-info__others-item">Peony & Marjoram Extracts: Effective at fighting acne and inflammation, and controlling oil production</li>
+              <li class="product-info__others-item">EPC-K: Antioxidant that enhances the skin's natural barrier</li>
+              <li class="product-info__others-item">Pyrola Calliantha Extract & other herbal extracts: Improves rough, uneven skin, leaving it silky soft</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
     <!-- end of product info -->
     <!-- how to use -->
     <section class="how-to-use">
-      <ul>
-        <li>
-          <h2>How to use</h2>
-          <ul>
-            <li>Tip 1: After cleaning and toning, apply a small amount (around the size of an HKD 5 coin) to the face. Can also be applied using a cotton pad to decrease the potential chilly feeling of the lotion.</li>
-            <li>Tip 2: Apply evenly to the face, then gently pat into the skin until it is fully absorbed.</li>
-            <li>Tip 3: Use greater amounts around visible pores and areas of higher sebum production, such as a T-zone.</li>
-          </ul>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="how-to-use__title">How to use</h2>
+        <ul class="how-to-use__steps">
+          <li>Tip 1: After cleaning and toning, apply a small amount (around the size of an HKD 5 coin) to the face. Can also be applied using a cotton pad to decrease the potential chilly feeling of the lotion.</li>
+          <li>Tip 2: Apply evenly to the face, then gently pat into the skin until it is fully absorbed.</li>
+          <li>Tip 3: Use greater amounts around visible pores and areas of higher sebum production, such as a T-zone.</li>
+        </ul>
+      </div>
     </section>
     <!-- end of how to use -->
 
     <section class="cta-button">
-      <a>Go to official website</a>
+      <div class="container">
+        <a class="cta-button__link"><span>Go to official website</span></a>
+      </div>
     </section>
 
-    <footer class="footer">
-      <div>
-        <p>If you have any questions about your order, please contact via email : customer@osakakuma.com or WhatsApp: 9666 7850.</p>
+    <footer class="product-footer">
+      <div class="container">
+        <div class="product-footer__contact">
+          <p>If you have any questions about your order, please contact via email : <strong>customer@osakakuma.com</strong> or WhatsApp: <strong>9666 7850</strong>.</p>
+        </div>
+        <ul class="product-footer__social-list">
+          <li class="product-footer__social-item">
+            <a href="">
+              <img src="./img/social-facebook-black.svg" alt="">
+            </a>
+          </li>
+          <li class="product-footer__social-item">
+            <a href="">
+              <img src="./img/social-instagram-black.svg" alt="">
+            </a>
+          </li>
+          <li class="product-footer__social-item">
+            <a href="">
+              <img src="./img/social-wechat-black.svg" alt="">
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <img class="product-footer__slogan" src="" alt="">
+        <a class="product-footer__site-link" href="">www.osakakuma.com</a>
       </div>
-      <ul>
-        <li>
-          <a href="">
-            <img src="" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="" alt="">
-          </a>
-        </li>
-      </ul>
-      <h5>JAPANESE BEAUTY & LIFESTYLE CURATOR</h5>
-      <a href="">www.osakakuma.com</a>
     </footer>
   </main>
 

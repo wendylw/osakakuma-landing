@@ -12,11 +12,11 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/video-js.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/product.css">
 </head>
 
 <body>
@@ -26,44 +26,50 @@
 
   <!-- Add your site or application content here -->
   <main class="main">
-    <header>
-      <img src="" alt="">
+    <header class="header">
+      <div class="container text-right">
+        <img class="header__logo" src="./img/logo-grey.png" alt="">
+      </div>
     </header>
     <!-- product info -->
     <section class="product-info">
-      <div>
-        <h4>Catalog</h4>
-        <ul>
-          <li>
-            <a href="">Shopee</a>
-          </li>
-          <li>
-            <a href="">Lazada</a>
-          </li>
-          <li>
-            <a href="">Qoo10</a>
-          </li>
-        </ul>
-        <img src="" alt="">
-        <h2>KEANA NADESHIKO Pore Care Rice Masks</h2>
-        <span>S$ 12.9</span>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Sheet mask that conditions the skin moist and plump up</p>
-        <p>“NADESHIKO rice (*) skincare” is containing 100% Japanese rice-derived skincare serum which acts against the dry porous skin.</p>
-        <p>Thick sheet with plenty of beauty essence adheres to the skin well. Gives a soft texture, and the skin becomes so moist that your fingers stick. Finish with “KEANA NASHIKO (no pores)” skin with unnoticeable pores.</p>
-        <img src="" alt="">
-        <img src="" alt="">
+      <div class="container">
+        <div>
+          <div class="product-info__cata-log text-right">
+            <h4 class="product-info__cata-log-title text-center">Catalog</h4>
+            <br />
+            <ul class="product-info__cata-log-list">
+              <li>
+                <a class="product-info__cata-log-link" href="">Shopee</a>
+              </li>
+              <li>
+                <a class="product-info__cata-log-link" href="">Lazada</a>
+              </li>
+              <li>
+                <a class="product-info__cata-log-link" href="">Qoo10</a>
+              </li>
+            </ul>
+          </div>
+          <img class="product-info__image" src="" alt="">
+          <h2 class="product-info__name">KEANA NADESHIKO Pore Care Rice Masks</h2>
+          <span class="product-info__price">S$ 12.9</span>
+        </div>
+        <div class="product-info__article">
+          <img class="product-info__article-image" src="" alt="">
+          <p class="product-info__article-title"><strong>Sheet mask that conditions the skin moist and plump up</strong></p>
+          <p>“NADESHIKO rice (*) skincare” is containing 100% Japanese rice-derived skincare serum which acts against the dry porous skin.<br />Thick sheet with plenty of beauty essence adheres to the skin well. Gives a soft texture, and the skin becomes so moist that your fingers stick. Finish with “KEANA NASHIKO (no pores)” skin with unnoticeable pores.</p>
+          <img class="product-info__article-image" src="" alt="">
+          <img class="product-info__article-image" src="" alt="">
+        </div>
       </div>
     </section>
     <!-- end of product info -->
     <!-- how to use -->
     <section class="how-to-use">
-      <ul>
-        <li>
-          <h2>How to use</h2>
-          <ul>
+      <div class="container">
+        <h2 class="how-to-use__title">How to use</h2>
+        <div class="how-to-use__content">
+          <ul class="how-to-use__tips">
             <li>-Can be used every day.</li>
             <li>-Also recommended as a special care for dry skin condition.</li>
             <li>-Can adjust the frequency of use according to skin type, skin condition, and preference.</li>
@@ -71,38 +77,43 @@
           <p>Use right after washing the face.</p>
           <p>Remove the mask from the bag with clean hands and carefully unfold the mask so as not to rip it. First, apply the sheet onto the eyes, then the mouth, and press closely onto the entire face. Leave it for 5 minutes, then gently peel off. Effective if massaging with remaining beauty essence with the hands.</p>
           <p>* May be used after conditioning with lotion.</p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
     <!-- end of how to use -->
 
     <section class="cta-button">
-      <a>Go to official website</a>
+      <div class="container">
+        <a class="cta-button__link"><span>Go to official website</span></a>
+      </div>
     </section>
 
-    <footer class="footer">
-      <div>
-        <p>If you have any questions about your order, please contact via email : customer@osakakuma.com or WhatsApp: 9666 7850.</p>
+    <footer class="product-footer">
+      <div class="container">
+        <div class="product-footer__contact">
+          <p>If you have any questions about your order, please contact via email : <strong>customer@osakakuma.com</strong> or WhatsApp: <strong>9666 7850</strong>.</p>
+        </div>
+        <ul class="product-footer__social-list">
+          <li class="product-footer__social-item">
+            <a href="">
+              <img src="./img/social-facebook-black.svg" alt="">
+            </a>
+          </li>
+          <li class="product-footer__social-item">
+            <a href="">
+              <img src="./img/social-instagram-black.svg" alt="">
+            </a>
+          </li>
+          <li class="product-footer__social-item">
+            <a href="">
+              <img src="./img/social-wechat-black.svg" alt="">
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <img class="product-footer__slogan" src="" alt="">
+        <a class="product-footer__site-link" href="">www.osakakuma.com</a>
       </div>
-      <ul>
-        <li>
-          <a href="">
-            <img src="" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <img src="" alt="">
-          </a>
-        </li>
-      </ul>
-      <h5>JAPANESE BEAUTY & LIFESTYLE CURATOR</h5>
-      <a href="">www.osakakuma.com</a>
     </footer>
   </main>
 

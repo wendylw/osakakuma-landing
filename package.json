@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "http-server . -p 8089",
-    "scss": "scss --watch styles/main.scss:css/main.css",
+    "scss": "scss --watch styles/main.scss:css/main.css styles/product.scss:css/product.css",
     "release": "tar zcvf osakakuma-landing-$(date +%Y%m%dT%H%M).tar.gz ./*.html ./css/*.css ./js ./img ./videos",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
