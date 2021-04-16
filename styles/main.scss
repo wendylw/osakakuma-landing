@@ -374,9 +374,18 @@ ul {
     line-height: 1.4em;
     font-weight: 900;
 
+    img {
+      width: 70%;
+    }
+
     br {
       display: none;
     }
+  }
+
+  &__title-mobile {
+    display: none;
+    margin: auto;
   }
 
   &__products {
@@ -505,6 +514,14 @@ ul {
       br {
         display: block;
       }
+    }
+
+    &__title-desktop {
+      display: none;
+    }
+
+    &__title-mobile {
+      display: block;
     }
 
     &__social-container {

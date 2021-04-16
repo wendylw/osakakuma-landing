@@ -264,8 +264,13 @@ ul {
     margin: 12px auto;
     line-height: 1.4em;
     font-weight: 900; }
+    .header__title img {
+      width: 70%; }
     .header__title br {
       display: none; }
+  .header__title-mobile {
+    display: none;
+    margin: auto; }
   .header__products {
     margin: 6px auto; }
   .header__products-item {
@@ -348,6 +353,10 @@ ul {
       font-size: 2.6rem; }
       .header__title br {
         display: block; }
+    .header__title-desktop {
+      display: none; }
+    .header__title-mobile {
+      display: block; }
     .header__social-container {
       margin: 40px auto; }
 
@@ -432,6 +441,9 @@ ul {
     position: relative; }
   .online-store__advantages {
     margin: 40px auto; }
+    .online-store__advantages img {
+      max-width: 400px;
+      width: 70%; }
   .online-store__advantages-item span::before {
     content: " ";
     display: inline-block;
@@ -503,6 +515,9 @@ ul {
   .about-us__title {
     padding: 0 40px;
     margin: 30px 0; }
+  .about-us__title-mobile {
+    margin: auto;
+    display: none; }
   .about-us__title span {
     font-size: inherit;
     color: #00c4b3; }
@@ -516,6 +531,9 @@ ul {
   padding: 50px 15px; }
   .membership__advantages {
     margin: 40px auto; }
+    .membership__advantages img {
+      max-width: 400px;
+      width: 70%; }
   .membership__advantages-item span::before {
     content: " ";
     display: inline-block;
@@ -537,6 +555,9 @@ ul {
   .membership__title {
     margin: 10px auto;
     font-weight: 900; }
+    .membership__title img {
+      max-width: 200px;
+      width: 40%; }
   .membership__description {
     margin: 30px auto; }
   .membership__form {
@@ -587,6 +608,9 @@ ul {
   .contact-us__title {
     margin: 30px auto;
     font-weight: 700; }
+    .contact-us__title img {
+      max-width: 200px;
+      width: 40%; }
   .contact-us__descripiton {
     display: inline-block;
     margin: auto;
@@ -707,6 +731,10 @@ ul {
   .about-us__title {
     text-align: center;
     font-size: 2.4rem; }
+  .about-us__title-desktop {
+    display: none; }
+  .about-us__title-mobile {
+    display: block; }
   .about-us__title span {
     display: block;
     line-height: 1.4em; }
