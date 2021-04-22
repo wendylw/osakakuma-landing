@@ -298,7 +298,8 @@ ul {
   .product-info__image {
     width: 70%; }
   .product-info__name {
-    margin: 10px 0; }
+    margin: 10px 0;
+    line-height: 1.5em; }
   .product-info__price {
     font-size: 2rem;
     font-weight: 700; }
